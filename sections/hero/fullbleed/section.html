@@ -1,7 +1,7 @@
 <section class="kit-hero hero-fullbleed" data-section="hero" id="top">
   <img class="kit-hero__img kit-slowzoom" src="{{hero_image}}" alt="{{restaurant_name}}">
   <div class="kit-container kit-hero__content" data-reveal-group>
-    <!-- if:locality --><p class="kit-eyebrow" style="color:#fff" data-reveal="fade">{{cuisine}} in {{locality}}</p><!-- /if:locality -->
+    <!-- if:locality --><p class="kit-eyebrow" style="color:#fff" data-reveal="fade"><!-- if:cuisine -->{{cuisine}} in <!-- /if:cuisine -->{{locality}}</p><!-- /if:locality -->
     <h1 class="kit-display" data-reveal>{{restaurant_name}}</h1>
     <p class="kit-lead" style="color:rgb(255 255 255 / .9)" data-reveal>{{tagline}}</p>
     <div class="hero-fullbleed__actions" data-reveal><a class="kit-btn kit-btn--light" href="#menu">See the menu</a><a class="kit-btn kit-btn--glass" href="tel:{{phone}}">Call {{phone}}</a></div>
