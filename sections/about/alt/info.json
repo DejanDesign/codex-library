@@ -1,0 +1,18 @@
+{
+  "id": "about-alt",
+  "group": "about",
+  "name": "Photo and story",
+  "description": "Photo beside the story text; works with one photo. Clear and warm.",
+  "best_for": [
+    "any"
+  ],
+  "needs": [
+    "about_text",
+    "about_image (optional)"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

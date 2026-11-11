@@ -1,0 +1,19 @@
+{
+  "id": "footer-simple",
+  "group": "footer",
+  "name": "Footer",
+  "description": "Name, contact, social links, photo credit.",
+  "best_for": [
+    "any"
+  ],
+  "needs": [
+    "restaurant_name",
+    "address",
+    "phone"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

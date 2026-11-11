@@ -1,0 +1,22 @@
+{
+  "id": "footer-bigname",
+  "group": "footer",
+  "name": "Big name",
+  "description": "Contact and links on top, the restaurant name set huge across the bottom edge.",
+  "best_for": [
+    "modern",
+    "editorial",
+    "bistro"
+  ],
+  "needs": [
+    "restaurant_name",
+    "address",
+    "phone",
+    "map_link"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

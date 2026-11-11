@@ -1,0 +1,5 @@
+/* about-alt — CODEX section, kit v1 */
+.about-alt__row {display: grid; gap: clamp(1.5rem, 4vw, 4rem); align-items: center;}
+.about-alt__row + .about-alt__row {margin-top: clamp(3rem, 8vw, 6rem);}
+@media (min-width: 900px) { .about-alt__row {grid-template-columns: 1fr 1fr;} .about-alt__row--flip .about-alt__media {order: 2;} }
+.about-alt__media {--kit-ratio: 4 / 5;}

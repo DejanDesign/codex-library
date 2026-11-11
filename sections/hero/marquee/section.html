@@ -1,0 +1,8 @@
+<section class="hero-marquee" data-section="hero" id="top">
+  <div class="kit-container hero-marquee__head" data-reveal-group>
+    <h1 class="kit-display" data-reveal>{{restaurant_name}}</h1>
+    <div data-reveal><p class="kit-lead">{{tagline}}</p><div style="display:flex;flex-wrap:wrap;gap:.75rem"><a class="kit-btn kit-btn--primary" href="#menu">See the menu</a><a class="kit-btn kit-btn--ghost" href="tel:{{phone}}">Call</a></div></div>
+  </div>
+  <div class="hero-marquee__band" aria-hidden="true"><div class="hero-marquee__track"><!-- repeat:menu_items --><span>{{item.name}}</span><!-- /repeat:menu_items --><!-- repeat:menu_items --><span>{{item.name}}</span><!-- /repeat:menu_items --></div></div>
+  <div class="kit-media hero-marquee__photo"><img src="{{hero_image}}" alt="{{restaurant_name}}"></div>
+</section>

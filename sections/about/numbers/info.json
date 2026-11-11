@@ -1,0 +1,19 @@
+{
+  "id": "about-numbers",
+  "group": "about",
+  "name": "Facts in numbers",
+  "description": "Short story plus up to four real facts as counting numbers (rating, reviews, years, seats). Only real data.",
+  "best_for": [
+    "established",
+    "popular"
+  ],
+  "needs": [
+    "about_text",
+    "facts (optional, real numbers only)"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

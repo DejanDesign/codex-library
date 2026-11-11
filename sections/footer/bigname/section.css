@@ -1,0 +1,9 @@
+/* footer-bigname — CODEX section, kit v1 */
+.ftb {background: var(--ink); color: var(--bg); padding-top: clamp(3rem, 8vw, 5rem); overflow: hidden;}
+.ftb a {text-decoration: none;}
+.ftb__grid {display: grid; gap: 1.5rem 3rem; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); font-size: .95rem;}
+.ftb__grid p {margin: 0 0 .4rem;}
+.ftb__label {opacity: .6; font-size: .85rem;}
+.ftb__name {font-family: var(--font-heading); font-size: clamp(3.5rem, 17vw, 15rem); line-height: 1; letter-spacing: -.04em; margin: clamp(1.5rem, 5vw, 3rem) 0 -.2em; padding-bottom: 4.5rem; white-space: nowrap; opacity: .95;}
+.ftb small {display: block; opacity: .6; margin-top: 2rem;}
+@media (min-width: 900px) { .ftb__name {padding-bottom: 0;} }

@@ -1,0 +1,7 @@
+/* about-collage — CODEX section, kit v1 */
+.about-collage__grid {display: grid; gap: clamp(2.5rem, 6vw, 5rem); align-items: center;}
+@media (min-width: 900px) { .about-collage__grid {grid-template-columns: 1fr 1fr;} }
+.about-collage__pics {position: relative; padding: 0 12% 14% 0;}
+.about-collage__big {--kit-ratio: 4 / 5;}
+.about-collage__small {position: absolute; right: 0; bottom: 0; width: 48%; --kit-ratio: 1; border: 6px solid var(--bg); box-shadow: var(--shadow-4);}
+.about-collage__sign {font-family: var(--font-heading); font-style: italic; font-size: 1.4rem; color: var(--accent); margin-top: 1.5rem;}

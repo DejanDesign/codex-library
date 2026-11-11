@@ -1,0 +1,6 @@
+<section class="kit-section about-numbers" data-section="about" id="about"><div class="kit-container">
+  <div class="kit-measure" data-reveal-group><h2 class="kit-h2" data-reveal>About {{restaurant_name}}</h2><p class="kit-lead" data-reveal>{{about_text}}</p></div>
+  <!-- if:facts --><div class="about-numbers__grid" data-reveal-group>
+    <!-- repeat:facts --><div class="about-numbers__item" data-reveal><span class="kit-number" data-count="{{fact.value}}">{{fact.value}}</span><p>{{fact.label}}</p></div><!-- /repeat:facts -->
+  </div><!-- /if:facts -->
+</div></section>

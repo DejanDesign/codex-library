@@ -1,0 +1,6 @@
+/* header-centered — CODEX section, kit v1 */
+.hdc {padding-block: 1.1rem; border-bottom: 1px solid var(--line);}
+.hdc__in {display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 1rem;}
+.hdc__name {font-family: var(--font-heading); font-size: clamp(1.3rem, 3vw, 1.9rem); text-decoration: none; letter-spacing: .02em;}
+.hdc__left, .hdc__right {display: none; gap: 1.75rem; font-size: .95rem;}
+@media (min-width: 900px) { .hdc__in {grid-template-columns: 1fr auto 1fr;} .hdc__left, .hdc__right {display: flex;} .hdc__right {justify-content: flex-end; align-items: center;} .hdc__call {display: none;} }

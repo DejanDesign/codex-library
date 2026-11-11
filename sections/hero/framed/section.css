@@ -1,0 +1,6 @@
+/* hero-framed — CODEX section, kit v1 */
+.hero-framed {background: var(--primary); color: var(--on-primary); padding: clamp(1rem, 3vw, 2rem) clamp(1rem, 3vw, 2rem) 0;}
+.hero-framed__photo {--kit-ratio: 4 / 5;}
+.hero-framed__text {padding: clamp(2rem, 5vw, 3.5rem) clamp(.5rem, 2vw, 1rem); display: grid; gap: 1.5rem; align-items: end;}
+.hero-framed__text h1 {color: var(--on-primary); margin: 0;}
+@media (min-width: 900px) { .hero-framed__photo {--kit-ratio: 21 / 9;} .hero-framed__text {grid-template-columns: 1.4fr 1fr;} }

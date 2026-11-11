@@ -1,0 +1,561 @@
+{
+  "version": "v1",
+  "rule": "A template uses ONE section per group (header, hero, about, menu, reviews, contact, footer; gallery optional), in an order that suits the brief, and adapts each one (copy, spacing, which kit button / hover / reveal). Facts and story lists may only contain real data.",
+  "sections": [
+    {
+      "id": "header-centered",
+      "path": "sections/header/centered/",
+      "group": "header",
+      "name": "Centred name",
+      "description": "The name in the middle, links split left and right on desktop. Classic and calm.",
+      "best_for": [
+        "fine dining",
+        "traditional",
+        "wine bar"
+      ],
+      "needs": [
+        "restaurant_name",
+        "phone"
+      ]
+    },
+    {
+      "id": "header-floating",
+      "path": "sections/header/floating/",
+      "group": "header",
+      "name": "Floating pill",
+      "description": "A rounded glass bar floating over the page, with name, links and one action.",
+      "best_for": [
+        "modern",
+        "cafe",
+        "beach bar"
+      ],
+      "needs": [
+        "restaurant_name",
+        "phone"
+      ]
+    },
+    {
+      "id": "header-simple",
+      "path": "sections/header/simple/",
+      "group": "header",
+      "name": "Simple header",
+      "description": "Name left, anchor links on desktop, one action. Turns to glass on scroll.",
+      "best_for": [
+        "any"
+      ],
+      "needs": [
+        "restaurant_name",
+        "phone"
+      ]
+    },
+    {
+      "id": "hero-editorial",
+      "path": "sections/hero/editorial/",
+      "group": "hero",
+      "name": "Editorial name",
+      "description": "The restaurant name set huge across the page; a photo overlaps the type. Bold and memorable.",
+      "best_for": [
+        "bistro",
+        "wine bar",
+        "modern"
+      ],
+      "needs": [
+        "hero_image",
+        "restaurant_name",
+        "tagline"
+      ]
+    },
+    {
+      "id": "hero-framed",
+      "path": "sections/hero/framed/",
+      "group": "hero",
+      "name": "Framed",
+      "description": "Wide photo inside a frame of the primary colour, title below on the frame. Calm and premium.",
+      "best_for": [
+        "fine dining",
+        "seafood",
+        "hotel restaurant"
+      ],
+      "needs": [
+        "hero_image",
+        "restaurant_name",
+        "tagline",
+        "phone"
+      ]
+    },
+    {
+      "id": "hero-fullbleed",
+      "path": "sections/hero/fullbleed/",
+      "group": "hero",
+      "name": "Full-bleed photo",
+      "description": "Photo fills the screen, name and actions sit bottom-left over a soft dark gradient.",
+      "best_for": [
+        "sea view",
+        "terrace",
+        "strong photos"
+      ],
+      "needs": [
+        "hero_image",
+        "restaurant_name",
+        "tagline",
+        "phone"
+      ]
+    },
+    {
+      "id": "hero-marquee",
+      "path": "sections/hero/marquee/",
+      "group": "hero",
+      "name": "Headline + dish ticker",
+      "description": "Headline, then a tilted band where dish names glide slowly across, then a wide photo. Lively but calm; pauses on hover.",
+      "best_for": [
+        "casual",
+        "pizzeria",
+        "beach bar"
+      ],
+      "needs": [
+        "restaurant_name",
+        "tagline",
+        "phone",
+        "menu_items",
+        "hero_image"
+      ]
+    },
+    {
+      "id": "hero-mosaic",
+      "path": "sections/hero/mosaic/",
+      "group": "hero",
+      "name": "Mosaic",
+      "description": "A coloured title card next to three photos. Shows food, place and people at once.",
+      "best_for": [
+        "casual",
+        "family",
+        "beach bar"
+      ],
+      "needs": [
+        "hero_image",
+        "gallery_images(2)",
+        "restaurant_name",
+        "tagline",
+        "phone"
+      ]
+    },
+    {
+      "id": "hero-overlap",
+      "path": "sections/hero/overlap/",
+      "group": "hero",
+      "name": "Photo collage",
+      "description": "Three photos overlapping like prints on a table, slightly turned; they shift a little on hover.",
+      "best_for": [
+        "family",
+        "cafe",
+        "traditional"
+      ],
+      "needs": [
+        "hero_image",
+        "gallery_images(2)",
+        "restaurant_name",
+        "tagline"
+      ]
+    },
+    {
+      "id": "hero-split",
+      "path": "sections/hero/split/",
+      "group": "hero",
+      "name": "Split",
+      "description": "Text panel on the page colour, tall photo on the right. With data-shape=arch the photo becomes an arch.",
+      "best_for": [
+        "cafe",
+        "brunch",
+        "elegant"
+      ],
+      "needs": [
+        "hero_image",
+        "restaurant_name",
+        "tagline",
+        "address",
+        "phone"
+      ]
+    },
+    {
+      "id": "hero-typestrip",
+      "path": "sections/hero/typestrip/",
+      "group": "hero",
+      "name": "Headline + photo strip",
+      "description": "Big headline first, then a swipeable strip of photos. Feels like a magazine.",
+      "best_for": [
+        "cafe",
+        "bakery",
+        "many good photos"
+      ],
+      "needs": [
+        "hero_image",
+        "gallery_images",
+        "restaurant_name",
+        "tagline"
+      ]
+    },
+    {
+      "id": "about-alt",
+      "path": "sections/about/alt/",
+      "group": "about",
+      "name": "Photo and story",
+      "description": "Photo beside the story text; works with one photo. Clear and warm.",
+      "best_for": [
+        "any"
+      ],
+      "needs": [
+        "about_text",
+        "about_image (optional)"
+      ]
+    },
+    {
+      "id": "about-collage",
+      "path": "sections/about/collage/",
+      "group": "about",
+      "name": "Two-photo collage",
+      "description": "A large photo with a smaller one overlapping its corner, story beside them.",
+      "best_for": [
+        "family",
+        "cafe",
+        "traditional"
+      ],
+      "needs": [
+        "about_text",
+        "about_image",
+        "hero_image"
+      ]
+    },
+    {
+      "id": "about-numbers",
+      "path": "sections/about/numbers/",
+      "group": "about",
+      "name": "Facts in numbers",
+      "description": "Short story plus up to four real facts as counting numbers (rating, reviews, years, seats). Only real data.",
+      "best_for": [
+        "established",
+        "popular"
+      ],
+      "needs": [
+        "about_text",
+        "facts (optional, real numbers only)"
+      ]
+    },
+    {
+      "id": "about-statement",
+      "path": "sections/about/statement/",
+      "group": "about",
+      "name": "Statement",
+      "description": "The story as one large statement, no photo. Strong when the text is short and personal.",
+      "best_for": [
+        "family-run",
+        "traditional"
+      ],
+      "needs": [
+        "about_text (max ~40 words)"
+      ]
+    },
+    {
+      "id": "about-timeline",
+      "path": "sections/about/timeline/",
+      "group": "about",
+      "name": "Timeline",
+      "description": "The story as years and moments. Only when the history is real and known.",
+      "best_for": [
+        "long history",
+        "family"
+      ],
+      "needs": [
+        "about_text",
+        "story (optional, real years only)"
+      ]
+    },
+    {
+      "id": "menu-board",
+      "path": "sections/menu/board/",
+      "group": "menu",
+      "name": "Chalkboard",
+      "description": "The menu on a dark board in the primary colour, big dish names, prices in the accent colour.",
+      "best_for": [
+        "trattoria",
+        "pizzeria",
+        "grill",
+        "wine bar"
+      ],
+      "needs": [
+        "menu_items"
+      ]
+    },
+    {
+      "id": "menu-columns",
+      "path": "sections/menu/columns/",
+      "group": "menu",
+      "name": "Two-column list",
+      "description": "Clean menu list in two columns on desktop, one on phones.",
+      "best_for": [
+        "any",
+        "long menus"
+      ],
+      "needs": [
+        "menu_items"
+      ]
+    },
+    {
+      "id": "menu-featured",
+      "path": "sections/menu/featured/",
+      "group": "menu",
+      "name": "Signature dishes",
+      "description": "Three to six dishes as photo cards. Needs good dish photos.",
+      "best_for": [
+        "seafood",
+        "pizzeria",
+        "visual food"
+      ],
+      "needs": [
+        "menu_items (with item.image)"
+      ]
+    },
+    {
+      "id": "menu-paper",
+      "path": "sections/menu/paper/",
+      "group": "menu",
+      "name": "Printed menu card",
+      "description": "The menu as an elegant card with a double border, like a printed menu on the table.",
+      "best_for": [
+        "traditional",
+        "trattoria",
+        "wine bar"
+      ],
+      "needs": [
+        "menu_items"
+      ]
+    },
+    {
+      "id": "menu-sticky",
+      "path": "sections/menu/sticky/",
+      "group": "menu",
+      "name": "Sticky intro + list",
+      "description": "Intro text stays in place on desktop while the menu scrolls next to it.",
+      "best_for": [
+        "fine dining",
+        "wine bar"
+      ],
+      "needs": [
+        "menu_items"
+      ]
+    },
+    {
+      "id": "gallery-masonry",
+      "path": "sections/gallery/masonry/",
+      "group": "gallery",
+      "name": "Masonry",
+      "description": "Photos of different heights in columns, like a mood board.",
+      "best_for": [
+        "cafe",
+        "brunch",
+        "many photos"
+      ],
+      "needs": [
+        "gallery_images (4+)"
+      ]
+    },
+    {
+      "id": "gallery-mosaic",
+      "path": "sections/gallery/mosaic/",
+      "group": "gallery",
+      "name": "Mosaic",
+      "description": "First photo large, the rest in a tidy grid.",
+      "best_for": [
+        "any"
+      ],
+      "needs": [
+        "gallery_images"
+      ]
+    },
+    {
+      "id": "gallery-strip",
+      "path": "sections/gallery/strip/",
+      "group": "gallery",
+      "name": "Swipe strip",
+      "description": "Photos in a horizontal strip you can swipe.",
+      "best_for": [
+        "cafe",
+        "beach bar"
+      ],
+      "needs": [
+        "gallery_images"
+      ]
+    },
+    {
+      "id": "gallery-trio",
+      "path": "sections/gallery/trio/",
+      "group": "gallery",
+      "name": "One large, two small",
+      "description": "Three photos: one tall, two stacked. Calm and balanced.",
+      "best_for": [
+        "fine dining",
+        "seafood"
+      ],
+      "needs": [
+        "gallery_images (3)"
+      ]
+    },
+    {
+      "id": "reviews-cards",
+      "path": "sections/reviews/cards/",
+      "group": "reviews",
+      "name": "Review cards",
+      "description": "Three review cards side by side.",
+      "best_for": [
+        "any"
+      ],
+      "needs": [
+        "reviews"
+      ]
+    },
+    {
+      "id": "reviews-marquee",
+      "path": "sections/reviews/marquee/",
+      "group": "reviews",
+      "name": "Gliding reviews",
+      "description": "Review cards glide slowly sideways and pause when touched or hovered. Static for visitors who turn motion off.",
+      "best_for": [
+        "popular",
+        "casual"
+      ],
+      "needs": [
+        "reviews (3+)"
+      ]
+    },
+    {
+      "id": "reviews-score",
+      "path": "sections/reviews/score/",
+      "group": "reviews",
+      "name": "Rating + quotes",
+      "description": "The Google rating as a big number, with short quotes beside it.",
+      "best_for": [
+        "popular",
+        "many reviews"
+      ],
+      "needs": [
+        "reviews",
+        "rating (optional)",
+        "review_count (optional)"
+      ]
+    },
+    {
+      "id": "reviews-single",
+      "path": "sections/reviews/single/",
+      "group": "reviews",
+      "name": "Large quotes",
+      "description": "Each review as a large centred quote. Use with 1 to 3 strong reviews.",
+      "best_for": [
+        "fine dining",
+        "elegant"
+      ],
+      "needs": [
+        "reviews"
+      ]
+    },
+    {
+      "id": "contact-band",
+      "path": "sections/contact/band/",
+      "group": "contact",
+      "name": "Dark action band",
+      "description": "A strong coloured band with the main actions. Good as the last section.",
+      "best_for": [
+        "any"
+      ],
+      "needs": [
+        "address",
+        "phone",
+        "map_link",
+        "hours"
+      ]
+    },
+    {
+      "id": "contact-overlay",
+      "path": "sections/contact/overlay/",
+      "group": "contact",
+      "name": "Card over photo",
+      "description": "A contact card floating over a full-width photo.",
+      "best_for": [
+        "terrace",
+        "sea view"
+      ],
+      "needs": [
+        "hero_image",
+        "address",
+        "hours",
+        "phone",
+        "map_link"
+      ]
+    },
+    {
+      "id": "contact-split",
+      "path": "sections/contact/split/",
+      "group": "contact",
+      "name": "Hours + map",
+      "description": "Opening hours and contact on one side, a map link panel on the other.",
+      "best_for": [
+        "any"
+      ],
+      "needs": [
+        "address",
+        "hours",
+        "phone",
+        "map_link"
+      ]
+    },
+    {
+      "id": "contact-ticket",
+      "path": "sections/contact/ticket/",
+      "group": "contact",
+      "name": "Reservation ticket",
+      "description": "Contact as a ticket: hours on the main part, a torn-off stub with the phone number and booking.",
+      "best_for": [
+        "casual",
+        "trattoria",
+        "beach bar"
+      ],
+      "needs": [
+        "address",
+        "hours",
+        "phone",
+        "map_link"
+      ]
+    },
+    {
+      "id": "footer-bigname",
+      "path": "sections/footer/bigname/",
+      "group": "footer",
+      "name": "Big name",
+      "description": "Contact and links on top, the restaurant name set huge across the bottom edge.",
+      "best_for": [
+        "modern",
+        "editorial",
+        "bistro"
+      ],
+      "needs": [
+        "restaurant_name",
+        "address",
+        "phone",
+        "map_link"
+      ]
+    },
+    {
+      "id": "footer-simple",
+      "path": "sections/footer/simple/",
+      "group": "footer",
+      "name": "Footer",
+      "description": "Name, contact, social links, photo credit.",
+      "best_for": [
+        "any"
+      ],
+      "needs": [
+        "restaurant_name",
+        "address",
+        "phone"
+      ]
+    }
+  ]
+}

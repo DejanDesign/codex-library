@@ -1,0 +1,7 @@
+<section class="hero-mosaic" data-section="hero" id="top"><div class="kit-container">
+  <div class="hero-mosaic__grid" data-reveal-group>
+    <div class="hero-mosaic__card" data-reveal="fade"><h1 class="kit-display">{{restaurant_name}}</h1><p style="opacity:.9">{{tagline}}</p><div style="display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1rem"><a class="kit-btn kit-btn--light" href="#menu">See the menu</a><a class="kit-btn kit-btn--glass" href="tel:{{phone}}">Call</a></div></div>
+    <div class="kit-media hero-mosaic__a" data-reveal="zoom"><img src="{{hero_image}}" alt="{{restaurant_name}}"></div>
+    <!-- repeat:gallery_images --><div class="kit-media hero-mosaic__img" data-reveal="zoom"><img src="{{image.url}}" alt="{{image.alt}}"></div><!-- /repeat:gallery_images -->
+  </div>
+</div></section>

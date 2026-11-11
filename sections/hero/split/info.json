@@ -1,0 +1,23 @@
+{
+  "id": "hero-split",
+  "group": "hero",
+  "name": "Split",
+  "description": "Text panel on the page colour, tall photo on the right. With data-shape=arch the photo becomes an arch.",
+  "best_for": [
+    "cafe",
+    "brunch",
+    "elegant"
+  ],
+  "needs": [
+    "hero_image",
+    "restaurant_name",
+    "tagline",
+    "address",
+    "phone"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

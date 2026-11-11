@@ -1,0 +1,20 @@
+{
+  "id": "contact-band",
+  "group": "contact",
+  "name": "Dark action band",
+  "description": "A strong coloured band with the main actions. Good as the last section.",
+  "best_for": [
+    "any"
+  ],
+  "needs": [
+    "address",
+    "phone",
+    "map_link",
+    "hours"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

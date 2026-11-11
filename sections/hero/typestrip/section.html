@@ -1,0 +1,10 @@
+<section class="hero-typestrip" data-section="hero" id="top">
+  <div class="kit-container hero-typestrip__head" data-reveal-group>
+    <h1 class="kit-display" data-reveal>{{restaurant_name}}</h1>
+    <div data-reveal><p class="kit-lead">{{tagline}}</p><a class="kit-btn kit-btn--slide" href="#menu">See the menu</a></div>
+  </div>
+  <div class="kit-strip" data-reveal-group>
+    <div class="kit-media" data-reveal="right"><img src="{{hero_image}}" alt="{{restaurant_name}}"></div>
+    <!-- repeat:gallery_images --><div class="kit-media kit-zoom" data-reveal="right"><img src="{{image.url}}" alt="{{image.alt}}"></div><!-- /repeat:gallery_images -->
+  </div>
+</section>

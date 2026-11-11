@@ -1,0 +1,6 @@
+/* hero-editorial — CODEX section, kit v1 */
+.hero-editorial {padding-block: clamp(3rem, 8vw, 6rem) clamp(2rem, 6vw, 4rem); overflow: hidden;}
+.hero-editorial__name {font-family: var(--font-heading); font-size: clamp(3.4rem, 15vw, 12rem); line-height: .88; letter-spacing: -.04em; margin: 0; overflow-wrap: anywhere;}
+.hero-editorial__row {display: grid; gap: 2rem; margin-top: clamp(1.5rem, 4vw, 3rem); align-items: end;}
+.hero-editorial__photo {--kit-ratio: 4 / 3;}
+@media (min-width: 900px) { .hero-editorial__row {grid-template-columns: 1.3fr 1fr;} .hero-editorial__photo {margin-top: -6rem; --kit-ratio: 5 / 4;} }

@@ -1,0 +1,44 @@
+{
+  "version": "v1",
+  "rule": "Use at most ONE signature effect per template. All effects respect prefers-reduced-motion and keep content visible without JS.",
+  "effects": [
+    {
+      "id": "slow-zoom-hero",
+      "what": "Hero photo settles from 108% to 100% over 18 s on load.",
+      "how": "Add class kit-slowzoom to the hero <img class=\"kit-hero__img\">.",
+      "best_for": [
+        "seafood",
+        "fine dining",
+        "beach bar"
+      ]
+    },
+    {
+      "id": "menu-tabs",
+      "what": "Menu categories as pill tabs (Starters, Mains, Desserts...). Without JS all categories show.",
+      "how": "<div class=\"kit-tabs\"><div class=\"kit-tabs__list\" role=\"tablist\"><button class=\"kit-tabs__tab\" role=\"tab\" aria-controls=\"tab-1\">Starters</button>...</div><section class=\"kit-tabs__panel\" id=\"tab-1\" role=\"tabpanel\">...</section>...</div>. Use only when the menu has categories.",
+      "best_for": [
+        "trattoria",
+        "cafe",
+        "pizzeria"
+      ]
+    },
+    {
+      "id": "photo-strip",
+      "what": "Swipeable horizontal photo strip with snap (CSS only).",
+      "how": "Wrap gallery items in <div class=\"kit-strip\">, each item a .kit-media.kit-zoom.",
+      "best_for": [
+        "beach bar",
+        "cafe",
+        "casual"
+      ]
+    },
+    {
+      "id": "stagger-reveal",
+      "what": "Cards and menu rows rise in one after another on scroll.",
+      "how": "Add data-reveal to each item and style=\"--i:0\", \"--i:1\"... for the order.",
+      "best_for": [
+        "any"
+      ]
+    }
+  ]
+}

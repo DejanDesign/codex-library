@@ -1,0 +1,6 @@
+/* contact-overlay — CODEX section, kit v1 */
+.contact-overlay {position: relative; isolation: isolate; padding-block: clamp(5rem, 14vw, 10rem);}
+.contact-overlay__bg {position: absolute; inset: 0; z-index: -1; border-radius: 0; --kit-ratio: auto;}
+.contact-overlay__card {max-width: 30rem; background: var(--surface); border-radius: var(--kit-radius); box-shadow: var(--shadow-5); padding: clamp(1.75rem, 5vw, 2.75rem);}
+.contact-band__hours, .contact-overlay__hours {list-style: none; padding: 0; margin: 1rem 0 0;}
+.contact-band__hours li, .contact-overlay__hours li {display: flex; justify-content: space-between; gap: 1rem; padding-block: .6rem; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums;}

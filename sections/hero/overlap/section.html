@@ -1,0 +1,12 @@
+<section class="hero-overlap" data-section="hero" id="top"><div class="kit-container hero-overlap__grid">
+  <div data-reveal-group>
+    <!-- if:locality --><p class="kit-eyebrow" data-reveal="fade">{{locality}}</p><!-- /if:locality -->
+    <h1 class="kit-display" data-reveal>{{restaurant_name}}</h1>
+    <p class="kit-lead" data-reveal>{{tagline}}</p>
+    <div style="display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.5rem" data-reveal><!-- if:booking_url --><a class="kit-btn kit-btn--paper" href="{{booking_url}}">Book a table</a><!-- /if:booking_url --><a class="kit-btn kit-btn--text" href="#menu">See the menu</a></div>
+  </div>
+  <div class="hero-overlap__stack" data-reveal="zoom">
+    <div class="kit-media hero-overlap__p1"><img src="{{hero_image}}" alt="{{restaurant_name}}"></div>
+    <!-- repeat:gallery_images --><div class="kit-media hero-overlap__px"><img src="{{image.url}}" alt="{{image.alt}}"></div><!-- /repeat:gallery_images -->
+  </div>
+</div></section>

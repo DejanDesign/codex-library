@@ -1,0 +1,4 @@
+<section class="kit-section kit-section--tint menu-tabs" data-section="menu_preview" id="menu"><div class="kit-container menu-tabs__wrap">
+  <div class="menu-tabs__intro" data-reveal-group><h2 class="kit-h2" data-reveal>On the menu</h2><p class="kit-lead" data-reveal>A taste of what we cook. The full menu changes with the season.</p><!-- if:booking_url --><a class="kit-btn kit-btn--rise" href="{{booking_url}}" data-reveal>Book a table</a><!-- /if:booking_url --></div>
+  <div data-reveal-group><!-- {{menu_items}} --><!-- repeat:menu_items --><div class="kit-menu-item" data-reveal><span class="kit-menu-item__name">{{item.name}}</span><span class="kit-menu-item__price">{{item.price}}</span><p class="kit-menu-item__desc">{{item.description}}</p></div><!-- /repeat:menu_items --></div>
+</div></section>

@@ -1,0 +1,8 @@
+/* reviews-marquee — CODEX section, kit v1 */
+.reviews-marquee {overflow: hidden;}
+.reviews-marquee__viewport {margin-top: 2rem; overflow: hidden; mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);}
+.reviews-marquee__track {display: flex; gap: 1rem; width: max-content; padding-block: .5rem;}
+.reviews-marquee__track figure {margin: 0; width: min(80vw, 360px); flex: none; display: flex; flex-direction: column; gap: .8rem;}
+@media (prefers-reduced-motion: no-preference) { .reviews-marquee__track {animation: reviews-marquee 60s linear infinite;} .reviews-marquee__viewport:hover .reviews-marquee__track, .reviews-marquee__viewport:focus-within .reviews-marquee__track {animation-play-state: paused;} }
+@media (prefers-reduced-motion: reduce) { .reviews-marquee__viewport {overflow-x: auto; mask-image: none; -webkit-mask-image: none;} .reviews-marquee__track [aria-hidden="true"] {display: none;} }
+@keyframes reviews-marquee { to { transform: translateX(-50%); } }

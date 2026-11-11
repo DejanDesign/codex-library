@@ -1,0 +1,18 @@
+{
+  "id": "reviews-single",
+  "group": "reviews",
+  "name": "Large quotes",
+  "description": "Each review as a large centred quote. Use with 1 to 3 strong reviews.",
+  "best_for": [
+    "fine dining",
+    "elegant"
+  ],
+  "needs": [
+    "reviews"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "menu-paper",
+  "group": "menu",
+  "name": "Printed menu card",
+  "description": "The menu as an elegant card with a double border, like a printed menu on the table.",
+  "best_for": [
+    "traditional",
+    "trattoria",
+    "wine bar"
+  ],
+  "needs": [
+    "menu_items"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

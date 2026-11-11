@@ -1,0 +1,6 @@
+/* header-simple — CODEX section, kit v1 */
+.hd {padding-block: .9rem;}
+.hd__in {display: flex; align-items: center; justify-content: space-between; gap: 1rem;}
+.hd__name {font-family: var(--font-heading); font-size: clamp(1.2rem, 2.4vw, 1.55rem); text-decoration: none;}
+.hd__nav {display: none; gap: 1.75rem; font-weight: 500; font-size: .95rem;}
+@media (min-width: 900px) { .hd__nav {display: flex;} }

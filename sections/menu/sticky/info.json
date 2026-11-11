@@ -1,0 +1,18 @@
+{
+  "id": "menu-sticky",
+  "group": "menu",
+  "name": "Sticky intro + list",
+  "description": "Intro text stays in place on desktop while the menu scrolls next to it.",
+  "best_for": [
+    "fine dining",
+    "wine bar"
+  ],
+  "needs": [
+    "menu_items"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

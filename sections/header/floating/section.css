@@ -1,0 +1,6 @@
+/* header-floating — CODEX section, kit v1 */
+.hdf {padding: .75rem var(--kit-pad); background: transparent !important; box-shadow: none !important; backdrop-filter: none !important;}
+.hdf__pill {max-width: 1100px; margin-inline: auto; display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .45rem .45rem .45rem 1.25rem; border-radius: 999px; background: color-mix(in srgb, var(--surface) 82%, transparent); border: 1px solid var(--line); box-shadow: var(--shadow-3); backdrop-filter: blur(14px) saturate(1.3); -webkit-backdrop-filter: blur(14px) saturate(1.3);}
+.hdf__name {font-family: var(--font-heading); font-size: 1.2rem; text-decoration: none; white-space: nowrap;}
+.hdf__nav {display: none; gap: 1.5rem; font-size: .92rem; font-weight: 500;}
+@media (min-width: 900px) { .hdf__nav {display: flex;} }

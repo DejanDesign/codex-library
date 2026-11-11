@@ -1,0 +1,8 @@
+<section class="kit-section contact-ticket" data-section="contact" id="visit"><div class="kit-container">
+  <div class="contact-ticket__card" data-reveal="zoom">
+    <div class="contact-ticket__main"><h2 class="kit-h2">Visit us</h2><p class="kit-muted">{{address}}</p>
+      <ul class="contact-ticket__hours"><!-- {{hours}} --><!-- repeat:hours --><li><span>{{day.label}}</span><span>{{day.time}}</span></li><!-- /repeat:hours --></ul>
+      <a class="kit-btn kit-btn--text" href="{{map_link}}" style="margin-top:1rem">Get directions</a></div>
+    <div class="contact-ticket__stub"><span style="opacity:.8">Call for a table</span><a class="contact-ticket__phone" href="tel:{{phone}}">{{phone}}</a><!-- if:booking_url --><a class="kit-btn kit-btn--light" href="{{booking_url}}">Book online</a><!-- /if:booking_url --><!-- if:whatsapp --><a class="kit-btn kit-btn--glass" href="https://wa.me/{{whatsapp}}">WhatsApp</a><!-- /if:whatsapp --></div>
+  </div>
+</div></section>

@@ -1,0 +1,6 @@
+/* hero-typestrip — CODEX section, kit v1 */
+.hero-typestrip {padding-block: clamp(3.5rem, 9vw, 7rem) clamp(2rem, 5vw, 3rem);}
+.hero-typestrip__head {display: grid; gap: 1.5rem; align-items: end; margin-bottom: clamp(2rem, 5vw, 3rem);}
+@media (min-width: 900px) { .hero-typestrip__head {grid-template-columns: 1.6fr 1fr;} }
+.hero-typestrip .kit-strip {grid-auto-columns: min(72%, 380px); padding-inline: var(--kit-pad);}
+.hero-typestrip .kit-media {--kit-ratio: 3 / 4;}

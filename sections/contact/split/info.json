@@ -1,0 +1,20 @@
+{
+  "id": "contact-split",
+  "group": "contact",
+  "name": "Hours + map",
+  "description": "Opening hours and contact on one side, a map link panel on the other.",
+  "best_for": [
+    "any"
+  ],
+  "needs": [
+    "address",
+    "hours",
+    "phone",
+    "map_link"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

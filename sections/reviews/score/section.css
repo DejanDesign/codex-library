@@ -1,0 +1,6 @@
+/* reviews-score — CODEX section, kit v1 */
+.reviews-score {display: grid; gap: 2rem; align-items: start;}
+@media (min-width: 900px) { .reviews-score {grid-template-columns: .7fr 1.3fr;} }
+.reviews-score__big {font-family: var(--font-heading); font-size: clamp(4rem, 12vw, 7rem); line-height: .9;}
+.reviews-score__list {display: grid; gap: 1.5rem;}
+.reviews-score__list figure {margin: 0; padding-left: 1.25rem; border-left: 2px solid var(--accent);}

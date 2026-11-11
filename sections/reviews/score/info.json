@@ -1,0 +1,20 @@
+{
+  "id": "reviews-score",
+  "group": "reviews",
+  "name": "Rating + quotes",
+  "description": "The Google rating as a big number, with short quotes beside it.",
+  "best_for": [
+    "popular",
+    "many reviews"
+  ],
+  "needs": [
+    "reviews",
+    "rating (optional)",
+    "review_count (optional)"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

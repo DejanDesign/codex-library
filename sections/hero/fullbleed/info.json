@@ -1,0 +1,22 @@
+{
+  "id": "hero-fullbleed",
+  "group": "hero",
+  "name": "Full-bleed photo",
+  "description": "Photo fills the screen, name and actions sit bottom-left over a soft dark gradient.",
+  "best_for": [
+    "sea view",
+    "terrace",
+    "strong photos"
+  ],
+  "needs": [
+    "hero_image",
+    "restaurant_name",
+    "tagline",
+    "phone"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

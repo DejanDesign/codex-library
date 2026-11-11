@@ -1,0 +1,21 @@
+{
+  "id": "hero-editorial",
+  "group": "hero",
+  "name": "Editorial name",
+  "description": "The restaurant name set huge across the page; a photo overlaps the type. Bold and memorable.",
+  "best_for": [
+    "bistro",
+    "wine bar",
+    "modern"
+  ],
+  "needs": [
+    "hero_image",
+    "restaurant_name",
+    "tagline"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

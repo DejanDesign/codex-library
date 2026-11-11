@@ -1,0 +1,23 @@
+{
+  "id": "hero-marquee",
+  "group": "hero",
+  "name": "Headline + dish ticker",
+  "description": "Headline, then a tilted band where dish names glide slowly across, then a wide photo. Lively but calm; pauses on hover.",
+  "best_for": [
+    "casual",
+    "pizzeria",
+    "beach bar"
+  ],
+  "needs": [
+    "restaurant_name",
+    "tagline",
+    "phone",
+    "menu_items",
+    "hero_image"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

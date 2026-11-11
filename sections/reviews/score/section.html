@@ -1,0 +1,4 @@
+<section class="kit-section reviews-score-wrap" data-section="reviews" id="reviews"><div class="kit-container reviews-score">
+  <div data-reveal-group><!-- if:rating --><div class="reviews-score__big" data-reveal>{{rating}}</div><p class="kit-muted" data-reveal>Google rating<!-- if:review_count --> from {{review_count}} reviews<!-- /if:review_count --></p><!-- /if:rating --><h2 class="kit-h2" data-reveal>What guests say</h2></div>
+  <div class="reviews-score__list" data-reveal-group><!-- {{reviews}} --><!-- repeat:reviews --><figure data-reveal="left"><blockquote class="kit-quote" style="margin:0 0 .5rem">{{review.text}}</blockquote><figcaption><strong>{{review.author}}</strong>, <span class="kit-source">Google review</span></figcaption></figure><!-- /repeat:reviews --></div>
+</div></section>

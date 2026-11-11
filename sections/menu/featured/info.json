@@ -1,0 +1,19 @@
+{
+  "id": "menu-featured",
+  "group": "menu",
+  "name": "Signature dishes",
+  "description": "Three to six dishes as photo cards. Needs good dish photos.",
+  "best_for": [
+    "seafood",
+    "pizzeria",
+    "visual food"
+  ],
+  "needs": [
+    "menu_items (with item.image)"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

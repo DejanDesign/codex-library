@@ -1,0 +1,23 @@
+{
+  "id": "hero-mosaic",
+  "group": "hero",
+  "name": "Mosaic",
+  "description": "A coloured title card next to three photos. Shows food, place and people at once.",
+  "best_for": [
+    "casual",
+    "family",
+    "beach bar"
+  ],
+  "needs": [
+    "hero_image",
+    "gallery_images(2)",
+    "restaurant_name",
+    "tagline",
+    "phone"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

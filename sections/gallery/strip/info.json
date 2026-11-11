@@ -1,0 +1,18 @@
+{
+  "id": "gallery-strip",
+  "group": "gallery",
+  "name": "Swipe strip",
+  "description": "Photos in a horizontal strip you can swipe.",
+  "best_for": [
+    "cafe",
+    "beach bar"
+  ],
+  "needs": [
+    "gallery_images"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

@@ -1,0 +1,12 @@
+/* hero-marquee — CODEX section, kit v1 */
+.hero-marquee {padding-top: clamp(3.5rem, 9vw, 7rem); overflow: hidden;}
+.hero-marquee__head {display: grid; gap: 1.5rem; align-items: end; padding-bottom: clamp(2rem, 5vw, 3rem);}
+@media (min-width: 900px) { .hero-marquee__head {grid-template-columns: 1.5fr 1fr;} }
+.hero-marquee__band {background: var(--accent); color: var(--ink); overflow: hidden; padding-block: 1rem; transform: rotate(-1.5deg); margin-inline: -2rem; position: relative; z-index: 2;}
+.hero-marquee__track {display: flex; width: max-content; gap: 0;}
+.hero-marquee__track span {font-family: var(--font-heading); font-size: clamp(1.4rem, 3.5vw, 2.4rem); white-space: nowrap; padding-inline: 1.25rem;}
+.hero-marquee__track span::after {content: "✦"; font-size: .6em; margin-left: 2.5rem; vertical-align: middle; opacity: .7;}
+@media (prefers-reduced-motion: no-preference) { .hero-marquee__track {animation: hero-marquee 45s linear infinite;} .hero-marquee__band:hover .hero-marquee__track {animation-play-state: paused;} }
+@keyframes hero-marquee { to { transform: translateX(-50%); } }
+.hero-marquee__photo {--kit-ratio: 16 / 9; border-radius: 0; margin-top: -1rem;}
+@media (min-width: 900px) { .hero-marquee__photo {--kit-ratio: 21 / 8;} }

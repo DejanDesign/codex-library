@@ -1,0 +1,17 @@
+{
+  "id": "gallery-mosaic",
+  "group": "gallery",
+  "name": "Mosaic",
+  "description": "First photo large, the rest in a tidy grid.",
+  "best_for": [
+    "any"
+  ],
+  "needs": [
+    "gallery_images"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "contact-overlay",
+  "group": "contact",
+  "name": "Card over photo",
+  "description": "A contact card floating over a full-width photo.",
+  "best_for": [
+    "terrace",
+    "sea view"
+  ],
+  "needs": [
+    "hero_image",
+    "address",
+    "hours",
+    "phone",
+    "map_link"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

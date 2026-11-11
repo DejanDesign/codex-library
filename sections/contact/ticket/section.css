@@ -1,0 +1,11 @@
+/* contact-ticket — CODEX section, kit v1 */
+.contact-ticket__card {display: grid; background: var(--surface); border-radius: var(--kit-radius); box-shadow: var(--kit-shadow); border: var(--kit-border); overflow: hidden;}
+@media (min-width: 900px) { .contact-ticket__card {grid-template-columns: 1.2fr .8fr;} }
+.contact-ticket__main {padding: clamp(1.75rem, 5vw, 3rem);}
+.contact-ticket__stub {position: relative; padding: clamp(1.75rem, 5vw, 3rem); background: var(--primary); color: var(--on-primary); display: flex; flex-direction: column; justify-content: center; gap: 1rem;
+  -webkit-mask: radial-gradient(circle 10px at 0 50%, transparent 98%, #000) left / 51% 100% no-repeat, radial-gradient(circle 10px at 100% 50%, transparent 98%, #000) right / 51% 100% no-repeat;}
+.contact-ticket__stub::before {content: ""; position: absolute; left: 0; right: 0; top: 0; border-top: 2px dashed color-mix(in srgb, var(--on-primary) 35%, transparent);}
+@media (min-width: 900px) { .contact-ticket__stub::before {right: auto; bottom: 0; border-top: 0; border-left: 2px dashed color-mix(in srgb, var(--on-primary) 35%, transparent);} }
+.contact-ticket__phone {font-family: var(--font-heading); font-size: clamp(1.6rem, 4vw, 2.3rem); text-decoration: none; color: var(--on-primary);}
+.contact-ticket__hours {list-style: none; padding: 0; margin: 1.25rem 0 0; display: grid; gap: .5rem;}
+.contact-ticket__hours li {display: flex; justify-content: space-between; gap: 1rem; font-variant-numeric: tabular-nums; border-bottom: 1px dotted var(--line); padding-bottom: .5rem;}

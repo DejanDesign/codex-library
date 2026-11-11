@@ -1,0 +1,10 @@
+<section class="hero-split" data-section="hero" id="top">
+  <div class="hero-split__text" data-reveal-group>
+    <!-- if:locality --><p class="kit-eyebrow" data-reveal="fade">{{locality}}</p><!-- /if:locality -->
+    <h1 class="kit-display" data-reveal>{{restaurant_name}}</h1>
+    <p class="kit-lead" data-reveal>{{tagline}}</p>
+    <div class="hero-split__actions" data-reveal><!-- if:booking_url --><a class="kit-btn kit-btn--primary" href="{{booking_url}}">Book a table</a><!-- /if:booking_url --><a class="kit-btn kit-btn--chip" href="#menu">See the menu<span class="kit-btn__chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></div>
+    <div class="hero-split__meta" data-reveal><span>{{address}}</span><span>{{phone}}</span></div>
+  </div>
+  <div class="kit-media hero-split__photo" data-reveal="clip"><img src="{{hero_image}}" alt="{{restaurant_name}}"></div>
+</section>

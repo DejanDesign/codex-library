@@ -1,0 +1,134 @@
+{
+  "version": "v1",
+  "rule": "Pick exactly one pair. Put the google_fonts_href in a <link rel=\"stylesheet\"> (with the two preconnect links) and set the css_vars on :root.",
+  "pairs": [
+    {
+      "id": "elegant-classic",
+      "heading": "Cormorant Garamond",
+      "body": "Inter",
+      "mood": "Elegant, calm, refined",
+      "suited_for": [
+        "fine dining",
+        "seafood",
+        "wine bar"
+      ],
+      "css_vars": {
+        "--font-heading": "'Cormorant Garamond', Georgia, serif",
+        "--font-body": "'Inter', system-ui, sans-serif"
+      },
+      "google_fonts_href": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap"
+    },
+    {
+      "id": "editorial-bold",
+      "heading": "DM Serif Display",
+      "body": "DM Sans",
+      "mood": "Confident editorial, modern",
+      "suited_for": [
+        "steakhouse",
+        "bistro",
+        "grill"
+      ],
+      "css_vars": {
+        "--font-heading": "'DM Serif Display', Georgia, serif",
+        "--font-body": "'DM Sans', system-ui, sans-serif"
+      },
+      "google_fonts_href": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@400;500;600&display=swap"
+    },
+    {
+      "id": "warm-modern",
+      "heading": "Fraunces",
+      "body": "Manrope",
+      "mood": "Warm, crafted, friendly",
+      "suited_for": [
+        "trattoria",
+        "traditional",
+        "farmhouse"
+      ],
+      "css_vars": {
+        "--font-heading": "'Fraunces', Georgia, serif",
+        "--font-body": "'Manrope', system-ui, sans-serif"
+      },
+      "google_fonts_href": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Manrope:wght@400;500;600&display=swap"
+    },
+    {
+      "id": "classic-trattoria",
+      "heading": "Playfair Display",
+      "body": "Source Sans 3",
+      "mood": "Classic, timeless",
+      "suited_for": [
+        "Italian",
+        "traditional Maltese",
+        "family"
+      ],
+      "css_vars": {
+        "--font-heading": "'Playfair Display', Georgia, serif",
+        "--font-body": "'Source Sans 3', system-ui, sans-serif"
+      },
+      "google_fonts_href": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Source+Sans+3:wght@400;500;600&display=swap"
+    },
+    {
+      "id": "soft-cafe",
+      "heading": "Lora",
+      "body": "Nunito Sans",
+      "mood": "Soft, welcoming daytime",
+      "suited_for": [
+        "cafe",
+        "brunch",
+        "bakery"
+      ],
+      "css_vars": {
+        "--font-heading": "'Lora', Georgia, serif",
+        "--font-body": "'Nunito Sans', system-ui, sans-serif"
+      },
+      "google_fonts_href": "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500&family=Nunito+Sans:wght@400;600&display=swap"
+    },
+    {
+      "id": "clean-modern",
+      "heading": "Bricolage Grotesque",
+      "body": "Inter",
+      "mood": "Modern, casual, clean",
+      "suited_for": [
+        "burger",
+        "casual",
+        "street food"
+      ],
+      "css_vars": {
+        "--font-heading": "'Bricolage Grotesque', system-ui, sans-serif",
+        "--font-body": "'Inter', system-ui, sans-serif"
+      },
+      "google_fonts_href": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Inter:wght@400;500;600&display=swap"
+    },
+    {
+      "id": "rustic-book",
+      "heading": "Libre Baskerville",
+      "body": "Karla",
+      "mood": "Rustic, literary, honest",
+      "suited_for": [
+        "traditional",
+        "wine",
+        "pastizzeria"
+      ],
+      "css_vars": {
+        "--font-heading": "'Libre Baskerville', Georgia, serif",
+        "--font-body": "'Karla', system-ui, sans-serif"
+      },
+      "google_fonts_href": "https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Karla:wght@400;500;700&display=swap"
+    },
+    {
+      "id": "sunny-beach",
+      "heading": "Unbounded",
+      "body": "Figtree",
+      "mood": "Playful, sunny, bold",
+      "suited_for": [
+        "beach bar",
+        "kiosk",
+        "cocktail"
+      ],
+      "css_vars": {
+        "--font-heading": "'Unbounded', system-ui, sans-serif",
+        "--font-body": "'Figtree', system-ui, sans-serif"
+      },
+      "google_fonts_href": "https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600&family=Figtree:wght@400;500;600&display=swap"
+    }
+  ]
+}

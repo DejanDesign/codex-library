@@ -1,0 +1,10 @@
+/* menu-board — CODEX section, kit v1 */
+.menu-board {background: var(--primary); color: var(--on-primary); position: relative; isolation: isolate;}
+.menu-board::before {content: ""; position: absolute; inset: 0; z-index: -1; opacity: .07; background-image: radial-gradient(circle at 1px 1px, #fff 1px, transparent 0); background-size: 6px 6px;}
+.menu-board h2 {color: var(--on-primary);}
+.menu-board__list {margin-top: 2.5rem; display: grid; gap: 0 4rem;}
+@media (min-width: 900px) { .menu-board__list {grid-template-columns: 1fr 1fr;} }
+.menu-board__item {display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .2rem 1.25rem; padding-block: 1.1rem; border-bottom: 1px dashed color-mix(in srgb, var(--on-primary) 28%, transparent);}
+.menu-board__name {font-family: var(--font-heading); font-size: clamp(1.35rem, 2.6vw, 1.75rem); line-height: 1.15; overflow-wrap: anywhere;}
+.menu-board__price {font-family: var(--font-heading); font-size: 1.35rem; color: var(--accent); white-space: nowrap;}
+.menu-board__desc {grid-column: 1 / -1; margin: 0; font-size: .95rem; color: color-mix(in srgb, var(--on-primary) 72%, transparent);}

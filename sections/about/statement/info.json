@@ -1,0 +1,18 @@
+{
+  "id": "about-statement",
+  "group": "about",
+  "name": "Statement",
+  "description": "The story as one large statement, no photo. Strong when the text is short and personal.",
+  "best_for": [
+    "family-run",
+    "traditional"
+  ],
+  "needs": [
+    "about_text (max ~40 words)"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

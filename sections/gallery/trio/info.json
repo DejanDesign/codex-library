@@ -1,0 +1,18 @@
+{
+  "id": "gallery-trio",
+  "group": "gallery",
+  "name": "One large, two small",
+  "description": "Three photos: one tall, two stacked. Calm and balanced.",
+  "best_for": [
+    "fine dining",
+    "seafood"
+  ],
+  "needs": [
+    "gallery_images (3)"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

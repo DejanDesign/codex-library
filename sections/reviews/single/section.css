@@ -1,0 +1,4 @@
+/* reviews-single — CODEX section, kit v1 */
+.reviews-single {text-align: center;}
+.reviews-single__quote {font-family: var(--font-heading); font-size: clamp(1.6rem, 4vw, 2.8rem); line-height: 1.25; max-width: 28ch; margin: 1.25rem auto;}
+.reviews-single__list {display: grid; gap: clamp(3rem, 8vw, 5rem);}

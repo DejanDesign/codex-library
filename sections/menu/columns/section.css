@@ -1,0 +1,4 @@
+/* menu-columns — CODEX section, kit v1 */
+.menu-columns__grid {display: grid; gap: 0 clamp(2rem, 5vw, 4rem); margin-top: 2rem;}
+@media (min-width: 900px) { .menu-columns__grid {grid-template-columns: 1fr 1fr;} }
+.menu-columns__foot {margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 1rem; align-items: center;}

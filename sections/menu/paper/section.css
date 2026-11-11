@@ -1,0 +1,5 @@
+/* menu-paper — CODEX section, kit v1 */
+.menu-paper__card {max-width: 46rem; margin-inline: auto; background: var(--surface); border: var(--kit-border); border-radius: var(--kit-radius); box-shadow: var(--kit-shadow); padding: clamp(2rem, 6vw, 4rem) clamp(1.25rem, 6vw, 4.5rem); position: relative;}
+.menu-paper__card::before {content: ""; position: absolute; inset: .6rem; border: 1px solid var(--line); border-radius: calc(var(--kit-radius) * .7); pointer-events: none;}
+.menu-paper__title {text-align: center; margin-bottom: 2rem;}
+.menu-paper .kit-menu-item {grid-template-columns: minmax(0, 1fr) auto; border-bottom-style: dotted;}

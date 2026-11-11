@@ -1,0 +1,20 @@
+{
+  "id": "header-floating",
+  "group": "header",
+  "name": "Floating pill",
+  "description": "A rounded glass bar floating over the page, with name, links and one action.",
+  "best_for": [
+    "modern",
+    "cafe",
+    "beach bar"
+  ],
+  "needs": [
+    "restaurant_name",
+    "phone"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

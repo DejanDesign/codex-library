@@ -1,0 +1,6 @@
+<section class="kit-section reviews-marquee" data-section="reviews" id="reviews"><div class="kit-container"><h2 class="kit-h2" data-reveal>What guests say</h2></div>
+  <div class="reviews-marquee__viewport" tabindex="0" aria-label="Guest reviews"><div class="reviews-marquee__track">
+    <!-- {{reviews}} --><!-- repeat:reviews --><figure class="kit-card"><div class="kit-stars" aria-label="{{review.rating}} out of 5">{{review.stars}}</div><blockquote class="kit-quote" style="margin:0">{{review.text}}</blockquote><figcaption><strong>{{review.author}}</strong>, <span class="kit-source">Google review</span></figcaption></figure><!-- /repeat:reviews -->
+    <div aria-hidden="true" style="display:contents"><!-- repeat:reviews --><figure class="kit-card"><div class="kit-stars">{{review.stars}}</div><blockquote class="kit-quote" style="margin:0">{{review.text}}</blockquote><figcaption><strong>{{review.author}}</strong>, <span class="kit-source">Google review</span></figcaption></figure><!-- /repeat:reviews --></div>
+  </div></div>
+</section>

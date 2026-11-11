@@ -1,0 +1,22 @@
+{
+  "id": "hero-overlap",
+  "group": "hero",
+  "name": "Photo collage",
+  "description": "Three photos overlapping like prints on a table, slightly turned; they shift a little on hover.",
+  "best_for": [
+    "family",
+    "cafe",
+    "traditional"
+  ],
+  "needs": [
+    "hero_image",
+    "gallery_images(2)",
+    "restaurant_name",
+    "tagline"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "reviews-cards",
+  "group": "reviews",
+  "name": "Review cards",
+  "description": "Three review cards side by side.",
+  "best_for": [
+    "any"
+  ],
+  "needs": [
+    "reviews"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

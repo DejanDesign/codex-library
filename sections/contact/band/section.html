@@ -1,0 +1,5 @@
+<section class="kit-section kit-section--dark contact-band" data-section="contact" id="visit"><div class="kit-container contact-band__in">
+  <div data-reveal-group><h2 class="kit-h2" data-reveal>Come and eat with us</h2><p class="kit-muted" data-reveal>{{address}}</p></div>
+  <div class="contact-band__actions" data-reveal><!-- if:booking_url --><a class="kit-btn kit-btn--light" href="{{booking_url}}">Book a table</a><!-- /if:booking_url --><a class="kit-btn kit-btn--glass" href="tel:{{phone}}">Call {{phone}}</a><a class="kit-btn kit-btn--glass" href="{{map_link}}">Directions</a></div>
+</div>
+<div class="kit-container" style="margin-top:2.5rem"><ul class="contact-band__hours"><!-- {{hours}} --><!-- repeat:hours --><li><span>{{day.label}}</span><span>{{day.time}}</span></li><!-- /repeat:hours --></ul></div></section>

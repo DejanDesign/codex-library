@@ -1,0 +1,18 @@
+{
+  "id": "menu-columns",
+  "group": "menu",
+  "name": "Two-column list",
+  "description": "Clean menu list in two columns on desktop, one on phones.",
+  "best_for": [
+    "any",
+    "long menus"
+  ],
+  "needs": [
+    "menu_items"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

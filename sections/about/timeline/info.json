@@ -1,0 +1,19 @@
+{
+  "id": "about-timeline",
+  "group": "about",
+  "name": "Timeline",
+  "description": "The story as years and moments. Only when the history is real and known.",
+  "best_for": [
+    "long history",
+    "family"
+  ],
+  "needs": [
+    "about_text",
+    "story (optional, real years only)"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

@@ -1,0 +1,4 @@
+/* gallery-mosaic — CODEX section, kit v1 */
+.gallery-mosaic__grid {display: grid; gap: .75rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 2rem;}
+.gallery-mosaic__grid .kit-media {--kit-ratio: 1;}
+@media (min-width: 900px) { .gallery-mosaic__grid {grid-template-columns: repeat(4, minmax(0, 1fr));} .gallery-mosaic__grid > :first-child {grid-column: span 2; grid-row: span 2; --kit-ratio: auto;} }

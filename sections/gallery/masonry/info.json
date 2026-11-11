@@ -1,0 +1,19 @@
+{
+  "id": "gallery-masonry",
+  "group": "gallery",
+  "name": "Masonry",
+  "description": "Photos of different heights in columns, like a mood board.",
+  "best_for": [
+    "cafe",
+    "brunch",
+    "many photos"
+  ],
+  "needs": [
+    "gallery_images (4+)"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

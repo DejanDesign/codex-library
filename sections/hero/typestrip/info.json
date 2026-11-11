@@ -1,0 +1,22 @@
+{
+  "id": "hero-typestrip",
+  "group": "hero",
+  "name": "Headline + photo strip",
+  "description": "Big headline first, then a swipeable strip of photos. Feels like a magazine.",
+  "best_for": [
+    "cafe",
+    "bakery",
+    "many good photos"
+  ],
+  "needs": [
+    "hero_image",
+    "gallery_images",
+    "restaurant_name",
+    "tagline"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

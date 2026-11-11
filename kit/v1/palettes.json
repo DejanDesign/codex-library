@@ -1,0 +1,354 @@
+{
+  "version": "v1",
+  "rule": "Set these as CSS variables on :root (--bg, --surface, --ink, --muted, --line, --primary, --on-primary, --accent). Use accent as a button background only if accent_button_ok is true; otherwise use accent for small details only. Palettes with theme 'dark' also set data-theme=\"dark\" on <html>.",
+  "palettes": [
+    {
+      "id": "aegean-light",
+      "name": "Airy Aegean",
+      "mood": "Calm, bright, elegant seaside",
+      "suited_for": [
+        "seafood",
+        "sea view",
+        "fine dining"
+      ],
+      "colors": {
+        "bg": "#F6F8F9",
+        "surface": "#FFFFFF",
+        "ink": "#14263A",
+        "muted": "#566272",
+        "line": "#DFE5E8",
+        "primary": "#14263A",
+        "on_primary": "#FFFFFF",
+        "accent": "#A8722F"
+      },
+      "contrast": {
+        "ink_on_bg": 14.47,
+        "muted_on_bg": 5.85,
+        "on_primary": 15.35,
+        "ink_on_accent": 3.74,
+        "primary_on_bg": 14.47
+      },
+      "accent_button_ok": false,
+      "theme": "light"
+    },
+    {
+      "id": "harbour-blue",
+      "name": "Harbour Blue",
+      "mood": "Fresh, trustworthy, waterfront",
+      "suited_for": [
+        "seafood",
+        "harbour",
+        "family"
+      ],
+      "colors": {
+        "bg": "#F4F7FA",
+        "surface": "#FFFFFF",
+        "ink": "#0F2235",
+        "muted": "#526070",
+        "line": "#DDE5EC",
+        "primary": "#12406A",
+        "on_primary": "#FFFFFF",
+        "accent": "#2A7F8E"
+      },
+      "contrast": {
+        "ink_on_bg": 15.02,
+        "muted_on_bg": 5.98,
+        "on_primary": 10.68,
+        "ink_on_accent": 3.48,
+        "primary_on_bg": 9.93
+      },
+      "accent_button_ok": false,
+      "theme": "light"
+    },
+    {
+      "id": "terracotta-sun",
+      "name": "Terracotta Sun",
+      "mood": "Warm, rustic Mediterranean",
+      "suited_for": [
+        "trattoria",
+        "Italian",
+        "traditional"
+      ],
+      "colors": {
+        "bg": "#FBF6F1",
+        "surface": "#FFFFFF",
+        "ink": "#2B1D16",
+        "muted": "#6A5A50",
+        "line": "#EBDDD1",
+        "primary": "#9A4529",
+        "on_primary": "#FFFFFF",
+        "accent": "#D99A4E"
+      },
+      "contrast": {
+        "ink_on_bg": 15.16,
+        "muted_on_bg": 6.13,
+        "on_primary": 6.45,
+        "ink_on_accent": 6.73,
+        "primary_on_bg": 6.0
+      },
+      "accent_button_ok": true,
+      "theme": "light"
+    },
+    {
+      "id": "olive-grove",
+      "name": "Olive Grove",
+      "mood": "Earthy, natural, farm-to-table",
+      "suited_for": [
+        "traditional",
+        "farmhouse",
+        "wine"
+      ],
+      "colors": {
+        "bg": "#F6F5EE",
+        "surface": "#FFFFFF",
+        "ink": "#23261B",
+        "muted": "#5D6150",
+        "line": "#E2E0D2",
+        "primary": "#4C572B",
+        "on_primary": "#FFFFFF",
+        "accent": "#B8963E"
+      },
+      "contrast": {
+        "ink_on_bg": 14.08,
+        "muted_on_bg": 5.84,
+        "on_primary": 7.76,
+        "ink_on_accent": 5.47,
+        "primary_on_bg": 7.1
+      },
+      "accent_button_ok": true,
+      "theme": "light"
+    },
+    {
+      "id": "limestone-red",
+      "name": "Limestone & Red",
+      "mood": "Traditional Maltese, warm stone",
+      "suited_for": [
+        "traditional Maltese",
+        "family",
+        "pastizzeria"
+      ],
+      "colors": {
+        "bg": "#F7F1E6",
+        "surface": "#FFFDF8",
+        "ink": "#2A2218",
+        "muted": "#6A5E50",
+        "line": "#E7DCCB",
+        "primary": "#7E2A2A",
+        "on_primary": "#FFFFFF",
+        "accent": "#C9A04A"
+      },
+      "contrast": {
+        "ink_on_bg": 13.94,
+        "muted_on_bg": 5.61,
+        "on_primary": 9.33,
+        "ink_on_accent": 6.42,
+        "primary_on_bg": 8.3
+      },
+      "accent_button_ok": true,
+      "theme": "light"
+    },
+    {
+      "id": "night-gold",
+      "name": "Night & Gold",
+      "mood": "Dark, intimate, fine dining",
+      "suited_for": [
+        "fine dining",
+        "cocktail",
+        "steakhouse"
+      ],
+      "colors": {
+        "bg": "#121212",
+        "surface": "#1C1B1A",
+        "ink": "#F2EEE8",
+        "muted": "#B3ACA2",
+        "line": "#2E2B28",
+        "primary": "#C8A36A",
+        "on_primary": "#121212",
+        "accent": "#C8A36A"
+      },
+      "contrast": {
+        "ink_on_bg": 16.21,
+        "muted_on_bg": 8.33,
+        "on_primary": 7.94,
+        "ink_on_accent": 2.04,
+        "primary_on_bg": 7.94
+      },
+      "accent_button_ok": false,
+      "theme": "dark"
+    },
+    {
+      "id": "citrus-cafe",
+      "name": "Citrus Caf\u00e9",
+      "mood": "Sunny, friendly daytime",
+      "suited_for": [
+        "cafe",
+        "brunch",
+        "bakery"
+      ],
+      "colors": {
+        "bg": "#FFFCF5",
+        "surface": "#FFFFFF",
+        "ink": "#1F2A24",
+        "muted": "#5A675F",
+        "line": "#EDE6D6",
+        "primary": "#2F5D50",
+        "on_primary": "#FFFFFF",
+        "accent": "#F2B33D"
+      },
+      "contrast": {
+        "ink_on_bg": 14.48,
+        "muted_on_bg": 5.79,
+        "on_primary": 7.49,
+        "ink_on_accent": 7.98,
+        "primary_on_bg": 7.31
+      },
+      "accent_button_ok": true,
+      "theme": "light"
+    },
+    {
+      "id": "beach-coral",
+      "name": "Beach Coral",
+      "mood": "Bright, relaxed, holiday",
+      "suited_for": [
+        "beach bar",
+        "kiosk",
+        "casual"
+      ],
+      "colors": {
+        "bg": "#FFF9F2",
+        "surface": "#FFFFFF",
+        "ink": "#10313A",
+        "muted": "#4C676D",
+        "line": "#F0E3D6",
+        "primary": "#0B6672",
+        "on_primary": "#FFFFFF",
+        "accent": "#FF7A59"
+      },
+      "contrast": {
+        "ink_on_bg": 13.19,
+        "muted_on_bg": 5.79,
+        "on_primary": 6.65,
+        "ink_on_accent": 5.37,
+        "primary_on_bg": 6.36
+      },
+      "accent_button_ok": true,
+      "theme": "light"
+    },
+    {
+      "id": "wine-bordeaux",
+      "name": "Bordeaux",
+      "mood": "Deep, warm, evening",
+      "suited_for": [
+        "wine bar",
+        "bistro",
+        "fine dining"
+      ],
+      "colors": {
+        "bg": "#F8F4F2",
+        "surface": "#FFFFFF",
+        "ink": "#241418",
+        "muted": "#685A5E",
+        "line": "#E7DADB",
+        "primary": "#5E1F2E",
+        "on_primary": "#FFFFFF",
+        "accent": "#B88A5A"
+      },
+      "contrast": {
+        "ink_on_bg": 16.17,
+        "muted_on_bg": 5.98,
+        "on_primary": 12.27,
+        "ink_on_accent": 5.74,
+        "primary_on_bg": 11.23
+      },
+      "accent_button_ok": true,
+      "theme": "light"
+    },
+    {
+      "id": "pizzeria-rosso",
+      "name": "Rosso",
+      "mood": "Bold, cheerful Italian",
+      "suited_for": [
+        "pizzeria",
+        "Italian",
+        "casual"
+      ],
+      "colors": {
+        "bg": "#FFFBF5",
+        "surface": "#FFFFFF",
+        "ink": "#1E1A17",
+        "muted": "#5F5750",
+        "line": "#EEE4D8",
+        "primary": "#B0241C",
+        "on_primary": "#FFFFFF",
+        "accent": "#2E6B3A"
+      },
+      "contrast": {
+        "ink_on_bg": 16.76,
+        "muted_on_bg": 6.87,
+        "on_primary": 6.74,
+        "ink_on_accent": 2.7,
+        "primary_on_bg": 6.54
+      },
+      "accent_button_ok": false,
+      "theme": "light"
+    },
+    {
+      "id": "sage-brunch",
+      "name": "Sage",
+      "mood": "Soft, healthy, modern",
+      "suited_for": [
+        "brunch",
+        "cafe",
+        "vegetarian"
+      ],
+      "colors": {
+        "bg": "#F5F7F2",
+        "surface": "#FFFFFF",
+        "ink": "#1E2620",
+        "muted": "#59635B",
+        "line": "#DFE6DC",
+        "primary": "#3B6651",
+        "on_primary": "#FFFFFF",
+        "accent": "#E3A587"
+      },
+      "contrast": {
+        "ink_on_bg": 14.39,
+        "muted_on_bg": 5.79,
+        "on_primary": 6.55,
+        "ink_on_accent": 7.39,
+        "primary_on_bg": 6.07
+      },
+      "accent_button_ok": true,
+      "theme": "light"
+    },
+    {
+      "id": "charcoal-ember",
+      "name": "Charcoal & Ember",
+      "mood": "Modern grill, confident",
+      "suited_for": [
+        "steakhouse",
+        "grill",
+        "burger"
+      ],
+      "colors": {
+        "bg": "#F4F2EF",
+        "surface": "#FFFFFF",
+        "ink": "#1A1A1A",
+        "muted": "#5B5752",
+        "line": "#E2DED8",
+        "primary": "#222222",
+        "on_primary": "#FFFFFF",
+        "accent": "#C2652A"
+      },
+      "contrast": {
+        "ink_on_bg": 15.58,
+        "muted_on_bg": 6.41,
+        "on_primary": 15.91,
+        "ink_on_accent": 4.3,
+        "primary_on_bg": 14.24
+      },
+      "accent_button_ok": false,
+      "theme": "light"
+    }
+  ]
+}

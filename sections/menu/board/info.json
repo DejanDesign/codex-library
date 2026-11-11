@@ -1,0 +1,20 @@
+{
+  "id": "menu-board",
+  "group": "menu",
+  "name": "Chalkboard",
+  "description": "The menu on a dark board in the primary colour, big dish names, prices in the accent colour.",
+  "best_for": [
+    "trattoria",
+    "pizzeria",
+    "grill",
+    "wine bar"
+  ],
+  "needs": [
+    "menu_items"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

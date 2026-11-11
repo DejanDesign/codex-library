@@ -1,0 +1,21 @@
+{
+  "id": "about-collage",
+  "group": "about",
+  "name": "Two-photo collage",
+  "description": "A large photo with a smaller one overlapping its corner, story beside them.",
+  "best_for": [
+    "family",
+    "cafe",
+    "traditional"
+  ],
+  "needs": [
+    "about_text",
+    "about_image",
+    "hero_image"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

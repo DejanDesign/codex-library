@@ -1,0 +1,18 @@
+{
+  "id": "header-simple",
+  "group": "header",
+  "name": "Simple header",
+  "description": "Name left, anchor links on desktop, one action. Turns to glass on scroll.",
+  "best_for": [
+    "any"
+  ],
+  "needs": [
+    "restaurant_name",
+    "phone"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

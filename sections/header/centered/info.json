@@ -1,0 +1,20 @@
+{
+  "id": "header-centered",
+  "group": "header",
+  "name": "Centred name",
+  "description": "The name in the middle, links split left and right on desktop. Classic and calm.",
+  "best_for": [
+    "fine dining",
+    "traditional",
+    "wine bar"
+  ],
+  "needs": [
+    "restaurant_name",
+    "phone"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

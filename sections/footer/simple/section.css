@@ -1,0 +1,7 @@
+/* footer-simple — CODEX section, kit v1 */
+.ft {padding-block: clamp(3rem, 8vw, 5rem) 6rem; background: var(--primary); color: var(--on-primary);}
+.ft__grid {display: grid; gap: 2rem;}
+@media (min-width: 900px) { .ft__grid {grid-template-columns: 1.5fr 1fr 1fr;} .ft {padding-bottom: 3rem;} }
+.ft__name {font-family: var(--font-heading); font-size: 1.8rem; margin: 0 0 .5rem;}
+.ft a {text-decoration: none;}
+.ft small {display: block; margin-top: 2.5rem; opacity: .7;}

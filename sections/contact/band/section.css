@@ -1,0 +1,9 @@
+/* contact-band — CODEX section, kit v1 */
+.contact-band {text-align: left;}
+.contact-band__in {display: grid; gap: 2rem; align-items: end;}
+@media (min-width: 900px) { .contact-band__in {grid-template-columns: 1.4fr 1fr;} }
+.contact-band__actions {display: flex; flex-wrap: wrap; gap: .75rem;}
+.contact-band h2 {color: var(--on-primary);}
+.contact-band__hours, .contact-overlay__hours {list-style: none; padding: 0; margin: 1rem 0 0;}
+.contact-band__hours li, .contact-overlay__hours li {display: flex; justify-content: space-between; gap: 1rem; padding-block: .6rem; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums;}
+.contact-band__hours li {border-bottom-color: color-mix(in srgb, var(--on-primary) 22%, transparent);}

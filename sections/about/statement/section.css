@@ -1,0 +1,5 @@
+/* about-statement — CODEX section, kit v1 */
+.about-statement {text-align: left;}
+.about-statement__quote {font-family: var(--font-heading); font-size: clamp(1.8rem, 4.6vw, 3.6rem); line-height: 1.15; letter-spacing: -.02em; margin: 0; max-width: 22ch;}
+.about-statement__by {display: flex; align-items: center; gap: 1rem; margin-top: 2rem; color: var(--muted);}
+.about-statement__by::before {content: ""; width: 2.5rem; height: 2px; background: var(--accent);}

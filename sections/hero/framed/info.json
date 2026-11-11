@@ -1,0 +1,22 @@
+{
+  "id": "hero-framed",
+  "group": "hero",
+  "name": "Framed",
+  "description": "Wide photo inside a frame of the primary colour, title below on the frame. Calm and premium.",
+  "best_for": [
+    "fine dining",
+    "seafood",
+    "hotel restaurant"
+  ],
+  "needs": [
+    "hero_image",
+    "restaurant_name",
+    "tagline",
+    "phone"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

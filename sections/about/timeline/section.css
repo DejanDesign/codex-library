@@ -1,0 +1,5 @@
+/* about-timeline — CODEX section, kit v1 */
+.about-timeline__list {list-style: none; margin: clamp(2rem, 5vw, 3rem) 0 0; padding: 0; display: grid; gap: 0;}
+.about-timeline__item {display: grid; grid-template-columns: 5.5rem minmax(0, 1fr); gap: 1.25rem; padding-block: 1.5rem; border-top: 1px solid var(--line);}
+.about-timeline__year {font-family: var(--font-heading); font-size: 1.6rem; color: var(--accent); line-height: 1;}
+.about-timeline__item p {margin: .35rem 0 0; color: var(--muted);}

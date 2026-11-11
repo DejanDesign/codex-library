@@ -1,0 +1,12 @@
+/* hero-overlap — CODEX section, kit v1 */
+.hero-overlap {padding-block: clamp(3rem, 8vw, 6rem); overflow: hidden;}
+.hero-overlap__grid {display: grid; gap: clamp(2.5rem, 6vw, 4rem); align-items: center;}
+@media (min-width: 900px) { .hero-overlap__grid {grid-template-columns: 1fr 1.05fr;} }
+.hero-overlap__stack {position: relative; min-height: clamp(340px, 60vw, 560px);}
+.hero-overlap__stack .kit-media {position: absolute; border: 6px solid var(--surface); box-shadow: var(--shadow-5);}
+.hero-overlap__p1 {inset: 0 18% 22% 0; --kit-ratio: auto; transform: rotate(-3deg);}
+@media (prefers-reduced-motion: no-preference) and (hover: hover) { .hero-overlap__stack .kit-media {transition: transform .6s var(--kit-ease);} }
+.hero-overlap__stack > .hero-overlap__px:nth-child(2) {width: 46%; right: 0; top: 14%; --kit-ratio: 3 / 4; transform: rotate(4deg);}
+.hero-overlap__stack > .hero-overlap__px:nth-child(3) {width: 42%; left: 18%; bottom: 0; --kit-ratio: 4 / 3; transform: rotate(-1deg);}
+.hero-overlap__stack > .hero-overlap__px:nth-child(n+4) {display: none;}
+@media (prefers-reduced-motion: no-preference) and (hover: hover) { .hero-overlap__stack:hover > .hero-overlap__px:nth-child(2) {transform: rotate(6deg) translate(8px, -6px);} .hero-overlap__stack:hover > .hero-overlap__px:nth-child(3) {transform: rotate(-3deg) translate(-6px, 6px);} }

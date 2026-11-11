@@ -1,0 +1,18 @@
+{
+  "id": "reviews-marquee",
+  "group": "reviews",
+  "name": "Gliding reviews",
+  "description": "Review cards glide slowly sideways and pause when touched or hovered. Static for visitors who turn motion off.",
+  "best_for": [
+    "popular",
+    "casual"
+  ],
+  "needs": [
+    "reviews (3+)"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

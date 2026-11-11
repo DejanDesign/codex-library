@@ -1,0 +1,22 @@
+{
+  "id": "contact-ticket",
+  "group": "contact",
+  "name": "Reservation ticket",
+  "description": "Contact as a ticket: hours on the main part, a torn-off stub with the phone number and booking.",
+  "best_for": [
+    "casual",
+    "trattoria",
+    "beach bar"
+  ],
+  "needs": [
+    "address",
+    "hours",
+    "phone",
+    "map_link"
+  ],
+  "kit_version": "v1",
+  "files": [
+    "section.html",
+    "section.css"
+  ]
+}

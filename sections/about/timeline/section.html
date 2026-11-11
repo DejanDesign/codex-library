@@ -1,0 +1,6 @@
+<section class="kit-section kit-section--tint about-timeline" data-section="about" id="about"><div class="kit-container kit-grid kit-grid--2">
+  <div data-reveal-group><h2 class="kit-h2" data-reveal>Our story</h2><p class="kit-lead" data-reveal>{{about_text}}</p></div>
+  <!-- if:story --><ol class="about-timeline__list" data-reveal-group>
+    <!-- repeat:story --><li class="about-timeline__item" data-reveal="left"><span class="about-timeline__year">{{moment.year}}</span><div>{{moment.text}}</div></li><!-- /repeat:story -->
+  </ol><!-- /if:story -->
+</div></section>

@@ -1,6 +1,7 @@
 {
   "contract_version": "1.1",
-  "kit_version": null,
+  "kit_version": "v1",
   "updated": "2026-11-11",
-  "templates": []
+  "templates": [],
+  "sections_version": "v1"
 }
